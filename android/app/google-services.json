@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553194400264",
+    "project_id": "imart-553d9",
+    "storage_bucket": "imart-553d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553194400264:android:2254eb2457973aabbc7fbd",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXGICZm6GcdGaH5lSYHfLvUQffJhlEAGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
