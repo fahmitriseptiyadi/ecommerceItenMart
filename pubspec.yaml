@@ -5,7 +5,8 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.5 <4.0.0'
+  # sdk: '>=3.0.5 <4.0.0'
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   cupertino_icons: ^1.0.2
@@ -25,6 +26,13 @@ dependencies:
   velocity_x: ^3.5.1
   math_expressions: ^2.3.1
   font_awesome_flutter: ^9.1.0
+  sqflite: ^2.3.0
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  http: ^0.13.5
+  recase: ^4.1.0
+  flutter_dotenv: ^5.0.2
+  bloc: ^8.1.0
 
   # Flutter window webview
   webview_windows: ^0.2.2

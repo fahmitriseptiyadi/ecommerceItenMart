@@ -65,8 +65,15 @@ class ProfileScreen extends StatelessWidget {
                                 //     .white
                                 //     .make(),
                                 // "${data['email']}".text.white.make(),
-                                "Fahmi Triseptiyadi".text.fontFamily(semibold).white.make(),
-                                "fahmii.triseptiyadii@gmail.com".text.white.make(),
+                                "Fahmi Triseptiyadi"
+                                    .text
+                                    .fontFamily(semibold)
+                                    .white
+                                    .make(),
+                                "fahmii.triseptiyadii@gmail.com"
+                                    .text
+                                    .white
+                                    .make(),
                               ]),
                         ),
                         OutlinedButton(

@@ -12,9 +12,11 @@ import 'package:get/get.dart';
 class editProfileScreen extends StatelessWidget {
   const editProfileScreen({Key? key}) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
     var controller = Get.find<profileController>();
+    Get.put(profileController());
 
     return bgWidget(
       child: Scaffold(

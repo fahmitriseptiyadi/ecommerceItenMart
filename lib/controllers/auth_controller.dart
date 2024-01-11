@@ -27,7 +27,7 @@ class AuthController extends GetxController {
   Future<UserCredential?> signupMethod({email, password, context}) async {
     UserCredential? userCredential;
 
-    try {
+    try { 
       await auth.createUserWithEmailAndPassword(
           email: email, password: password);
     } on FirebaseAuthException catch (e) {

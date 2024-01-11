@@ -56,7 +56,13 @@ const womenClothing = "Women Clothing",
 
 // add ons strings
 
-const scanBarcode = "Scan Barcode", bmi = "BMI Calculator", calc = "Calculator";
+const scanBarcode = "Scan Barcode",
+    bmi = "BMI Calculator",
+    calc = "Calculator",
+    customer = "Customer List Crud",
+    recipe = "Recipe Food Get Data API",
+    weather = "Weather",
+    nba = "NBA Teams API";
 
 // item details string
 const video = "Video",

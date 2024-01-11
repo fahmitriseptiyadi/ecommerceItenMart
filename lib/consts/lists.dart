@@ -20,8 +20,7 @@ const categoriesList = [
   sports,
   cellphone,
   jewelery,
-  furniture,
-  scanBarcode
+  furniture
 ];
 
 const categoryImages = [
@@ -34,16 +33,21 @@ const categoryImages = [
   imgFc6,
   imgFc7,
   imgFc9,
-  // imgFc8,
-  imgScanBarcode
+  // imgScanBarcode
+
 ];
 
 //Add-ons
-const addonsImages = [imgScanBarcode, imgCalc, imgBMI];
+const addonsImages = [imgScanBarcode, imgCalc, imgBMI,imgCus,imgRecipe,imgWeather,imgNBA];
+
 const addonsList = [
   scanBarcode,
   calc,
   bmi,
+  customer,
+  recipe,
+  weather,
+  nba
 ];
 
 const itemDetailsButtonList = [

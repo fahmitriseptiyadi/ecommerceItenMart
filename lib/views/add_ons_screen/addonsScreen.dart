@@ -1,9 +1,14 @@
 import 'package:ItenMart/consts/colors.dart';
 import 'package:ItenMart/consts/lists.dart';
 import 'package:ItenMart/consts/styles.dart';
+import 'package:ItenMart/main.dart';
 import 'package:ItenMart/views/add_ons_screen/bmi/Screens/input_page.dart';
-import 'package:ItenMart/views/add_ons_screen/calc.dart';
-import 'package:ItenMart/views/add_ons_screen/scanBarcodeScreen.dart';
+import 'package:ItenMart/views/add_ons_screen/calculator/calc.dart';
+import 'package:ItenMart/views/add_ons_screen/cus_list/CustomerScreen.dart';
+import 'package:ItenMart/views/add_ons_screen/recipe/recipeScreen.dart';
+import 'package:ItenMart/views/add_ons_screen/scanbarcode/scanBarcodeScreen.dart';
+import 'package:ItenMart/views/add_ons_screen/weather/main2.dart';
+import 'package:ItenMart/views/add_ons_screen/nba/nbaScreen.dart';
 import 'package:flutter/material.dart';
 
 class AddonsScreen extends StatelessWidget {
@@ -20,7 +25,7 @@ class AddonsScreen extends StatelessWidget {
       ),
       body: GridView.builder(
         shrinkWrap: true,
-        itemCount: 3,
+        itemCount: 7,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
           mainAxisSpacing: 8,
@@ -45,6 +50,26 @@ class AddonsScreen extends StatelessWidget {
                   // Navigate to the third screen.
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
                     return bmiCalcScreen();
+                  }));
+                } else if (index == 3) {
+                  // Navigate to the third screen.
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return CustomerScreen();
+                  }));
+                } else if (index == 4) {
+                  // Navigate to the third screen.
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return recipeScreen();
+                  }));
+                } else if (index == 5) {
+                  // Navigate to the third screen.
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return MyApp2();
+                  }));
+                }else if (index == 6) {
+                  // Navigate to the third screen.
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return nbaScreen();
                   }));
                 }
               },
